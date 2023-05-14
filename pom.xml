@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.lyw.wmall</groupId>
+    <artifactId>wmall</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>wmall</name>
+    <description>aggregation service</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>wmall-coupon</module>
+        <module>wmall-member</module>
+        <module>wmall-order</module>
+        <module>wmall-product</module>
+        <module>wmall-ware</module>
+    </modules>
+
+</project>
